@@ -14,3 +14,13 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.navbar {
+  padding: 0.8rem 1rem;
+}
+
+.img-fluid.devops-web {
+  max-width: 100%;
+  height: auto;
+  float: right;
+}
