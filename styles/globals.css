@@ -24,3 +24,66 @@ a {
   height: auto;
   float: right;
 }
+
+.our-projects .custom-navigation .owl-nav {
+  left: auto;
+  right: 65px;
+  top: -106px
+}
+
+.custom-navigation .owl-nav {
+  border: 1px solid #3c37f1;
+  display: flex;
+  display: -webkit-flex;
+  max-width: 80px;
+  color: #3c37f1;
+  height: 45px;
+  position: absolute;
+  bottom: 60px;
+  left: 55px;
+  border-radius: 50px;
+}
+
+.custom-navigation .owl-nav:after {
+  width: 6px;
+  height: 6px;
+  background-color: #3c37f1;
+  border-radius: 50%;
+  position: absolute;
+  top: 18px;
+  left: 50%;
+  content: '';
+  transform: translate(-50);
+}
+
+.custom-navigation .owl-nav button {
+  width: 40px;
+  position: relative;
+}
+
+.custom-navigation .owl-nav button span {
+  color: transparent;
+}
+
+.owl-theme .owl-nav:hover {
+  background: none !important;
+}
+
+.custom-navigation .owl-nav .owl-prev span:before, 
+.custom-navigation .owl-nav .owl-next span:before {
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 18px;
+  left: 18px;
+  content: '';
+  border: solid #3c37f1;
+  border-width: 0 1px 1px 0;
+  display: inline-block;
+  padding: 4px;
+  transform: rotate(135deg);
+}
+
+.custom-navigation .owl-nav .owl-next span:before {
+  transform: rotate(-50deg);
+}
