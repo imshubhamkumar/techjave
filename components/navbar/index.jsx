@@ -5,8 +5,7 @@ const Navbar = () => {
 		<nav className="navbar navbar-expand-lg fixed-top">
 			<div className="container">
 				<a className="navbar-brand" href="#">
-                    {/* <img src="images/logo.svg" alt="Marshmallow" /> */}
-					TechJave.
+                    <img src="/logo/logo-07.png" alt="TechJave." />
                 </a>
 				<button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
 				<span className="navbar-toggler-icon">
@@ -26,19 +25,16 @@ const Navbar = () => {
 							<a className="nav-link" href="#services">Services</a>
 						</li>
 						<li className="nav-item">
-							<a className="nav-link" href="#about">About</a>
+							<a className="nav-link" href="#projects">About Us</a>
 						</li>
 						<li className="nav-item">
-							<a className="nav-link" href="#projects">Projects</a>
+							<a className="nav-link" href="#testimonial">Careers</a>
 						</li>
 						<li className="nav-item">
-							<a className="nav-link" href="#testimonial">Testimonial</a>
+							<a className="nav-link" href="#plans"> Contact Us</a>
 						</li>
 						<li className="nav-item">
-							<a className="nav-link" href="#plans">Plans</a>
-						</li>
-						<li className="nav-item">
-							<a className="nav-link btn btn-success" href="#contact">174-394-9560</a>
+							<a className="nav-link" href="#about">Blogs</a>
 						</li>
 					</ul>
 				</div>
