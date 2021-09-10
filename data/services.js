@@ -1,4 +1,4 @@
-[
+export const services = [
     {
         "name" : "DevSecOps Advisory & Solutioning",
         "url": "devSecOps-advisory-solutioning",

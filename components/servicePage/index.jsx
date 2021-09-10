@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import LeftContent from "./leftContent";
 import RightContent from "./rightContent";
-import * as data from '../../data/services.json';
+import {services as data} from '../../data/services';
 import HeroSection from '../heroSection';
 
 const ServicePage = ({urlData}) => {
