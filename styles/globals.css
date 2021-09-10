@@ -150,6 +150,46 @@ ul.servicesList li{
   color: white;
 }
 
+.dropdown-menu.uparrow:before {
+  content: "";
+  position: absolute;
+  pointer-events: none;
+  bottom: 100%;
+  left: 35px;
+  height: 0;
+  width: 0;
+  border-bottom: 12px solid #fff;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+}
+
+.home-service-card-body {
+  overflow: hidden;
+ text-overflow: ellipsis;
+ display: -webkit-box;
+ -webkit-line-clamp: 2; /* number of lines to show */
+ -webkit-box-orient: vertical;
+}
+
+.home-service-card-body:hover {
+  color: #6c7293;
+}
+
+.services-box a:hover {
+  text-decoration: none;
+}
+
+.services-box a p:hover {
+  color: #6c7293;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
 
 @media (max-width: 1200px) {
   .our-projects .custom-navigation .owl-nav {

@@ -3,6 +3,10 @@ export const services = [
         "name" : "DevSecOps Advisory & Solutioning",
         "url": "devSecOps-advisory-solutioning",
         "imgUrl": "/images/devops-services.jpg",
+        "icon": "/images/counselor.png",
+        "overview": `Help arrive at Very objective and honest assement of current maturity vs desired maturity
+        Devise a evolving and tractable Roadmap to reach desired state
+        Provide support of an experienced Coach/Sherpa - who has treaded similar path`,
         "subService": [
             {
                 "name": "Audit Assessment",
@@ -44,6 +48,11 @@ export const services = [
     {
         "name" : "Containerization",
         "url": "containerization",
+        "imgUrl": "/images/containers.jpg",
+        "icon": "/images/containers.png",
+        "overview": `Help arrive at Very objective and honest assement of current maturity vs desired maturity
+        Devise a evolving and tractable Roadmap to reach desired state
+        Provide support of an experienced Coach/Sherpa - who has treaded similar path`,
         "subService": [
             {
                 "name": "Microservice Architecture Consulting",
@@ -60,6 +69,11 @@ export const services = [
     {
         "name" : "Cloud Computing",
         "url": "cloud-computing",
+        "imgUrl": "/images/cloud-service.jpg",
+        "icon": "/images/cloud-computing.png",
+        "overview": `Help arrive at Very objective and honest assement of current maturity vs desired maturity
+        Devise a evolving and tractable Roadmap to reach desired state
+        Provide support of an experienced Coach/Sherpa - who has treaded similar path`,
         "subService": [
             {
                 "name": "Cloud Consultation",
@@ -91,6 +105,11 @@ export const services = [
     {
         "name" : "Security & Networking",
         "url": "security-networking",
+        "imgUrl": "/images/security-service.jpg",
+        "icon": "/images/network.png",
+        "overview": `Help arrive at Very objective and honest assement of current maturity vs desired maturity
+        Devise a evolving and tractable Roadmap to reach desired state
+        Provide support of an experienced Coach/Sherpa - who has treaded similar path`,
         "subService": [
             {
                 "name": "Security and Risk Assessment",
@@ -127,6 +146,11 @@ export const services = [
     {
         "name" : "NOC",
         "url": "noc",
+        "imgUrl": "/images/noc-service.jpg",
+        "icon": "/images/settings.png",
+        "overview": `Help arrive at Very objective and honest assement of current maturity vs desired maturity
+        Devise a evolving and tractable Roadmap to reach desired state
+        Provide support of an experienced Coach/Sherpa - who has treaded similar path`,
         "subService": [
             {
                 "name": "L1/L2 Application Support",
