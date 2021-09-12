@@ -183,21 +183,54 @@ ul.servicesList li{
   color: #6c7293;
 }
 
-.avatar-container .avatar {
-  display: block;
+.avatar {
   height: 100%;
-  width: auto;
-  vertical-align: middle;
-  border-radius: 50%;
+  width: 100%;
+  transition: all 500ms;
 }
 
 .avatar-container {
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
+  position: relative;
   overflow: hidden;
+  border-radius: 50%;
+}
+.team .card-body {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
 }
 
+.team .card-body a {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
 
+.team_name {
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.about-team {
+  background: url("../public/images/linkedin.svg") no-repeat;
+  width: 32px;
+  height: 32px;
+  text-indent: -99999px;
+  display: inline-block;
+}
+
+.team .card-body a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+#about-intro {
+  padding: 60px 0 0 0;
+  margin-bottom: 20px;
+}
 @media (max-width: 1200px) {
   .our-projects .custom-navigation .owl-nav {
     left: auto;
