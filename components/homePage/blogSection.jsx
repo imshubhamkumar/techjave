@@ -30,7 +30,7 @@ const BlogSection = () => {
 					<div className="row mb-5">
 						<div className="col-sm-12">
 							<div className="d-sm-flex justify-content-between align-items-center mb-2">
-								<h3 className="font-weight-medium text-dark ">Let&apos;s See Our Latest Project</h3>
+								<h3 className="font-weight-medium text-dark ">Let&apos;s See Our Blogs</h3>
 								<div><a href="#" className="btn btn-outline-primary">View more</a></div>
 							</div>
 						</div>
@@ -46,7 +46,7 @@ const BlogSection = () => {
                                     <p className="card-text">
                                     In everyone’s career path, this particular situation always comes when...
                                     </p>
-                                    <a href="/" className="card-link">Read Article</a>
+                                    <a href="/" target="_blank" className="card-link">Read Article</a>
                                 </div>
                             </div>
 						</div>

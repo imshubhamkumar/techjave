@@ -31,7 +31,7 @@ const Navbar = () => {
 							<ul className={['dropdown-menu uparrow p-2', serviceDropDown ? 'show': ''].join(' ')}>
 								{services.map((item, idx) => 
 								<li key={idx} className="p-2">
-									<a className="dropdown-item" href={`services/${item.url}`}>
+									<a className="dropdown-item" href={`/services/${item.url}`}>
 										<Image src={item.icon} alt="advisory-and-solution" height="20" width="20" data-aos="zoom-in"/>
 										<span className="ml-3"> {item.name} </span>
 									</a>
@@ -40,16 +40,16 @@ const Navbar = () => {
 							</ul>
 						</li>
 						<li className="nav-item">
-							<a className="nav-link" href="#projects">About Us</a>
+							<a className="nav-link" href="/about-us">About Us</a>
 						</li>
 						<li className="nav-item">
-							<a className="nav-link" href="#testimonial">Careers</a>
+							<a className="nav-link" href="/career">Careers</a>
 						</li>
 						<li className="nav-item">
-							<a className="nav-link" href="#plans"> Contact Us</a>
+							<a className="nav-link" href="/contact-us"> Contact Us</a>
 						</li>
 						<li className="nav-item">
-							<a className="nav-link" href="#about">Blogs</a>
+							<a className="nav-link" target="_blank" href="/blogs">Blogs</a>
 						</li>
 					</ul>
 				</div>
