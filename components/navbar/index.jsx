@@ -4,6 +4,11 @@ import { services } from '../../data/services';
 
 const Navbar = () => {
 	const [serviceDropDown, setServiceDropDown] = useState(false);
+	const [sideMenu, setSideMenu] = useState(false);
+	const handleSideMenu = (e) => {
+		e.preventDefault();
+		setSideMenu(false)
+	}
     return ( 
         <>
         <div id="mobile-menu-overlay"></div>
@@ -12,22 +17,22 @@ const Navbar = () => {
 				<a className="navbar-brand" href="/">
                     <img src="/logo/logo-07.png" alt="TechJave." />
                 </a>
-				<button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+				<button className="navbar-toggler" type="button" onClick={() => setSideMenu(true)}>
 				<span className="navbar-toggler-icon">
                     <i className="mdi mdi-menu"> </i>
                 </span>
 				</button>
-				<div className="collapse navbar-collapse" id="navbarTogglerDemo01">
+				<div className={['collapse navbar-collapse sidemenu', sideMenu ? 'show': ''].join(' ')} id="navbarTogglerDemo01">
 					<div className="d-lg-none d-flex justify-content-between px-4 py-3 align-items-center">
-						<img src="/images/logo-dark.svg" className="logo-mobile-menu" alt="logo"/>
-						<a href="javascript:;" className="close-menu"><i className="mdi mdi-close"></i></a>
+						<img src="/logo/logo-07.png" className="logo-mobile-menu" alt="logo"/>
+						<a href="/" onClick={(e) => handleSideMenu(e)} className="close-menu"><i className="mdi mdi-close"></i></a>
 					</div>
 					<ul className="navbar-nav ml-auto align-items-center">
-						<li className="nav-item active">
-							<a className="nav-link active" href="#home">Home <span className="sr-only">(current)</span></a>
+						<li className="nav-item">
+							<a className="nav-link" href="#home">Home <span className="sr-only">(current)</span></a>
 						</li>
 						<li className="nav-item dropdown" onMouseEnter={() => setServiceDropDown(true)} onMouseLeave={() => setServiceDropDown(false)}>
-							<a className={['nav-link', serviceDropDown ? 'show': ''].join(' ')} href="#services">Services</a>
+							<a className={['nav-link', serviceDropDown ? 'show': ''].join(' ')} href="#services" onClick={(e) => e.preventDefault()}>Services</a>
 							<ul className={['dropdown-menu uparrow p-2', serviceDropDown ? 'show': ''].join(' ')}>
 								{services.map((item, idx) => 
 								<li key={idx} className="p-2">
