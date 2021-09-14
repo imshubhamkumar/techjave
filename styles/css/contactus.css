@@ -92,7 +92,6 @@ iframe {
 
 .contact100-form-title {
   display: block;
-  font-family: Ubuntu-Bold;
   font-size: 30px;
   color: #403866;
   line-height: 1.2;
@@ -119,7 +118,6 @@ iframe {
   width: 100%;
   background: #fff;
   border-radius: 31px;
-  font-family: Ubuntu-Bold;
   font-size: 18px;
   color: #8f8fa1;
   line-height: 1.2;
@@ -195,7 +193,6 @@ textarea.input100 {
   background-color: transparent;
   border-radius: 31px;
 
-  font-family: Ubuntu-Bold;
   font-size: 16px;
   color: #fff;
   line-height: 1.2;
@@ -266,7 +263,6 @@ textarea.input100 {
   right: 10px;
   pointer-events: none;
 
-  font-family: Ubuntu-Bold;
   color: #c80000;
   font-size: 13px;
   line-height: 1.4;

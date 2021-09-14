@@ -243,6 +243,12 @@ ul.servicesList li{
   margin-bottom: 20px;
 }
 
+.testimonial {
+  background: #251ff2b8;
+  padding: 100px 0 70px 0;
+  background-size: cover;
+}
+
 @media (max-width: 1200px) {
   .our-projects .custom-navigation .owl-nav {
     left: auto;
