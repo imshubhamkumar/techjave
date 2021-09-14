@@ -16,12 +16,6 @@ export const aboutusData = {
             jobProfile: 'Job Title Here',
             linkedin: '',
             imgUrl: ''
-        },
-        {
-            name: 'Name Goes Here',
-            jobProfile: 'Job Title Here',
-            linkedin: '',
-            imgUrl: ''
         }
     ]
 }

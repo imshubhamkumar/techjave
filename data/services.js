@@ -11,7 +11,7 @@ export const services = [
             {
                 "name": "Audit Assessment",
                 "details": "Robust, Scalable and Secure Infra design backed by 5 years of experience involving more than 10,000 plus VMs and 40+ products. Native/Cloud agnostic infrastructure setup automation is our forte.",
-                imgUrl: ""
+                imgUrl: "/images/develop.png"
             },
             {
                 "name": "Solution Architects & Consultation",
