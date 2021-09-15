@@ -38,6 +38,7 @@ const ContactUsPage = () => {
             setSubmitted(true);
             return false
         }
+        return true;
     }
    const handleSubmit = (event) => {
         event.preventDefault()
@@ -49,12 +50,18 @@ const ContactUsPage = () => {
         sendMessage()
       }
    const sendMessage = () => {
+       const body = {
+           from: email,
+           name,
+           phone,
+           mailBody: message
+       }
         let formData = new FormData()
         formData.append("name", name)
         formData.append("email", email)
         formData.append("phone",phone)
         formData.append("message", message)
-        axios.post(contact.GOOGLE_FORM_ACTION_URL, formData)
+        axios.post('/api/contact', body)
          .then((res) => {
            setName('');
            setEmail('');
