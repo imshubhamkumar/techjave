@@ -12,7 +12,7 @@ const Footer = () => {
 								<p>406, Sector-26</p>
 								<p className="mb-4">Panchkula, Haryana</p>
 								<div className="d-flex align-items-center">
-									<p className="mr-4 mb-0">+3 123 456 789</p>
+									<p className="mr-4 mb-0">+91 7986558845</p>
 									<a href="mailto:support@techjave.com" className="footer-link">support@techjave.com</a>
 								</div>
 								<div className="d-flex align-items-center">
