@@ -61,7 +61,7 @@ const ContactUsPage = () => {
         formData.append("email", email)
         formData.append("phone",phone)
         formData.append("message", message)
-        axios.post('/api/contact', body)
+        axios.post('/api/hello', body)
          .then((res) => {
            setName('');
            setEmail('');
