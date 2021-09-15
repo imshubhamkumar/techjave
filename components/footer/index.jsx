@@ -9,11 +9,11 @@ const Footer = () => {
 					<div className="row">
 						<div className="col-sm-6">
 							<address>
-								<p>143 castle road 517</p>
-								<p className="mb-4">district, kiyev port south Canada</p>
+								<p>406, Sector-26</p>
+								<p className="mb-4">Panchkula, Haryana</p>
 								<div className="d-flex align-items-center">
 									<p className="mr-4 mb-0">+3 123 456 789</p>
-									<a href="mailto:info@yourmail.com" className="footer-link">info@yourmail.com</a>
+									<a href="mailto:support@techjave.com" className="footer-link">support@techjave.com</a>
 								</div>
 								<div className="d-flex align-items-center">
 									<p className="mr-4 mb-0">+1 222 345 342</p>
@@ -47,7 +47,7 @@ const Footer = () => {
 								<div className="col-sm-4">
 									<h6 className="footer-title">Company</h6>
 									<ul className="list-footer">
-										<li><a href="#" className="footer-link">Aobut TechJave</a></li>
+										<li><a href="#" className="footer-link">About TechJave</a></li>
 										<li><a href="#" className="footer-link">Contact Us</a></li>
 									</ul>
 								</div>
